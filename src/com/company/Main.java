@@ -4,7 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        System.out.println("Hell yeah, its working!");
 
 	// write your code here
     // Normal single line comment
@@ -12,6 +11,14 @@ public class Main {
     /*
        Multiple lines comments
     */
+
+        int hour = 11;
+        int minute = 59;
+        System.out.print("The current time is ");
+        System.out.print(hour);
+        System.out.print(":");
+        System.out.print(minute);
+        System.out.print(".");
 
     }
 }
